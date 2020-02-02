@@ -83,6 +83,47 @@ img {
     border-bottom: gray solid 1px;
 }
 
+textarea {
+    margin-left: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    padding: 10px 0 10px 10px;
+}
+
+input {
+    margin-left: 20px;
+    width: 90%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    padding: 10px 0 10px 10px;
+  }
+
+h3 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+button {
+    margin-left: 20px;
+    width: 100px;
+    height: 45px;
+    background-color: #eebec1;
+    border: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
 /*media queries*/
 
 @media only screen and (max-width: 980px) {
