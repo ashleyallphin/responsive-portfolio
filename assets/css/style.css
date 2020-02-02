@@ -123,7 +123,27 @@ button {
     font-size: 14px;
 }
 
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    margin: 0px auto 0px 0px;
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 0 0 0px;
+    left: 0;
+    right: 0;
+    top: 75%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100%; /* Set the width of the positioned div */
+    background-color: #eebec1;
+    padding: 20px 0 20px 0;
+}
 
+.box img {
+    margin: 0 auto 0 auto;
+}
 /*media queries*/
 
 @media only screen and (max-width: 980px) {
@@ -191,6 +211,15 @@ button {
     }
 
     img {
-    padding-left: 20px;
-    float: none;
+        padding-left: 20px;
+        float: none;
+        }
+        
+    .box img {
+            padding: 0px 0 40px 0;
+            float: none;
+        }
+
+    .box {
+        margin-left: 20px;
     }
