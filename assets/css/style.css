@@ -79,12 +79,12 @@ img {
 }
 
 .pagetitle {
-    margin: 20px 20px 20px 20px;
+    margin-bottom: 20px;
     border-bottom: gray solid 1px;
 }
 
 textarea {
-    margin-left: 20px;
+    margin-left: 0px;
     width: 90%;
     margin-bottom: 20px;
     border: 1px solid #d4d4d4;
@@ -93,7 +93,7 @@ textarea {
 }
 
 input {
-    margin-left: 20px;
+    margin-left: 0px;
     width: 90%;
     height: 20px;
     margin-bottom: 20px;
@@ -142,7 +142,7 @@ button {
 }
 
 .box img {
-    margin: 0 auto 0 auto;
+    margin: 20px auto 20px auto;
 }
 /*media queries*/
 
@@ -175,7 +175,7 @@ button {
         font-size: 26px;
     }
     .content {
-        margin: 20px auto 020px auto;
+        margin: 20px auto 20px auto;
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 20px;
