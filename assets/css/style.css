@@ -143,7 +143,7 @@ font-family: 'Raleway', sans-serif;
 .box{
     position: relative;
     display: inline-block; /* Make the width of box same as image */
-    margin: 0px auto 0px 0px;
+    margin: 0px 10px 0px 10px;
 }
 .box .text{
     position: absolute;
