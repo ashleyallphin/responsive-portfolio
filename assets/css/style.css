@@ -143,11 +143,11 @@ font-family: 'Raleway', sans-serif;
 .box{
     position: relative;
     display: inline-block; /* Make the width of box same as image */
-    margin: 0px 10px 0px 10px;
+    margin: 10px 10px 0px 30px;
 }
 .box .text{
     position: absolute;
-    z-index: 999;
+    z-index: 1;
     margin: 0 0 0 0px;
     left: 0;
     right: 0;
@@ -159,7 +159,18 @@ font-family: 'Raleway', sans-serif;
 }
 
 .box img {
-    margin: 20px auto 20px auto;
+    margin: 20px auto 00px auto;
+}
+
+.fa  {
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+    right: 60px;
+    top: 10%; /* Adjust this value to move the positioned div up and down */
+    text-align: right;
+    width: 0;
+    color: white;
 }
 /*media queries*/
 
