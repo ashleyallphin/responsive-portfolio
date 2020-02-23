@@ -203,6 +203,18 @@ button {
     .header {
         width: 100%;
     }
+    .name {
+        width: 100%;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+  
+      .name h1 {
+          font-size: 25px;
+      }
   }
 
   @media only screen and (max-width: 640px) {
