@@ -152,8 +152,8 @@ button {
     display: inline-block; /* Make the width of box same as image */
     margin: 10px 10px 0px 30px;
     color: #000;
-
 }
+
 .box .text{
     position: absolute;
     z-index: 1;
@@ -186,6 +186,8 @@ button {
 @media only screen and (max-width: 980px) {
     .content {
       width: 500px;
+      margin-right: auto;
+      margin-left: auto;
     }
     .header {
         width: 100%;
@@ -199,6 +201,8 @@ button {
 
     .content {
         width: 80%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .header {
         width: 100%;
@@ -224,6 +228,8 @@ button {
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 20px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .name {
       width: 100%;
@@ -276,3 +282,4 @@ button {
     .box {
         margin-left: 20px;
     }
+}
