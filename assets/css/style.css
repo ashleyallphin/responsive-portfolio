@@ -152,6 +152,7 @@ button {
     display: inline-block; /* Make the width of box same as image */
     margin: 10px 10px 0px 30px;
     color: #000;
+    
 }
 
 .box .text{
@@ -181,6 +182,14 @@ button {
     width: 0;
     color: #efefef;
 }
+
+
+.modules {
+    text-align: center
+}
+
+
+
 /*media queries*/
 
 @media only screen and (max-width: 980px) {
